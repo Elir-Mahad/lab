@@ -4,6 +4,7 @@ import TlbrSlantedBox from "@/components/Shared/BoxShapes/Tlbr/TlbrSlantedBox";
 import About from "@/components/Home/About/About";
 import ToolBox from "@/components/Home/ToolBox/ToolBox";
 import GameHeader from "@/components/Home/GameHeader/GameHeader";
+import Footer from "@/components/Shared/Footer/Footer";
 
 export default function Home({}) {
   return (
@@ -25,6 +26,7 @@ export default function Home({}) {
           title2="Toolbox"
           content2={<ToolBox />}
         />
+        <Footer />
       </main>
     </div>
   );

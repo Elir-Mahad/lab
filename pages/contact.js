@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import "animate.css";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Shared/Footer/Footer";
 import GeneralMenu from "@/components/Menu/GeneralMenu";
@@ -18,7 +19,9 @@ export default function ContactPage({}) {
       </Head>
       <GeneralMenu />
       <main className={styles.main}>
-        <Contact />
+        <div class="animate__animated animate__headShake animate__slower">
+          <Contact />
+        </div>
       </main>
       <Footer />
     </div>

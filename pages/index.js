@@ -5,6 +5,7 @@ import About from "@/components/Home/About/About";
 import ToolBox from "@/components/Home/ToolBox/ToolBox";
 import GameHeader from "@/components/Home/GameHeader/GameHeader";
 import Footer from "@/components/Shared/Footer/Footer";
+import GeneralMenu from "@/components/Menu/GeneralMenu";
 
 export default function Home({}) {
   return (
@@ -18,6 +19,7 @@ export default function Home({}) {
           rel="stylesheet"
         />
       </Head>
+      <GeneralMenu />
       <main className={styles.main}>
         <GameHeader />
         <TlbrSlantedBox

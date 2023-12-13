@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Shared/Footer/Footer";
+import GeneralMenu from "@/components/Menu/GeneralMenu";
 
 export default function ContactPage({}) {
   return (
@@ -15,6 +16,7 @@ export default function ContactPage({}) {
           rel="stylesheet"
         />
       </Head>
+      <GeneralMenu />
       <main className={styles.main}>
         <Contact />
       </main>

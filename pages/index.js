@@ -1,15 +1,13 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import GameHeader from "@/components/GameHeader/GameHeader";
 
 export default function Home({}) {
   return (
     <div>
       <Head>
         <title>Proof-of-work</title>
-        <meta
-          name="keywords"
-          content=" Frontend development, JavaScript, Coding blog, Coding tutorials, Data science,"
-        />
+        <meta name="keywords" content="Coding portfolio" />
         <meta name="description" content="Coding portfolio" />
         <link
           href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
@@ -17,7 +15,7 @@ export default function Home({}) {
         />
       </Head>
       <main className={styles.main}>
-        <h1>hello</h1>
+        <GameHeader />
       </main>
     </div>
   );

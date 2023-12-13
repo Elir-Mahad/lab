@@ -1,0 +1,70 @@
+.AllProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.NbBox {
+  margin-bottom: 2rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  border: 1px solid black;
+  padding: 1rem;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+}
+
+.NbTitleAndCornerBox {
+  display: flex;
+}
+
+.NbTitle {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  width: 15rem;
+  margin-bottom: -1rem;
+}
+
+.NbMainBoxCornerBox {
+  display: flex;
+}
+
+.NbMainBox {
+  line-height: 3rem;
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+/* Media queries below */
+
+@media (max-width: 1000px) {
+  .AllProjects {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .NbTitle {
+    padding-left: 0rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .AllProjects {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .NbTitle {
+    width: 12rem;
+    padding-right: 0.5rem;
+  }
+}

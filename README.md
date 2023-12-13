@@ -1,5 +1,3 @@
-# Portfolio
-
 This repo holds my coding portolio.
 
 It contains three pages.

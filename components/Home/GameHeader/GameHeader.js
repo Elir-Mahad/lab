@@ -45,7 +45,7 @@ function GameHeader() {
         </div>
         <img
           className={style.GhProfilePic}
-          src="https://raw.githubusercontent.com/Elir-Mahad/porass/main/assets/personal/cropchess.jpeg"
+          src="https://raw.githubusercontent.com/Elir-Mahad/porass/main/assets/personal/birdshop1.jpeg"
           alt="Picture"
         />
       </div>

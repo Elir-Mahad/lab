@@ -1,0 +1,41 @@
+.Tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 1.3rem;
+}
+
+.TsingleBox {
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: calc((78.4% / 1) - 0%);
+  margin: 1rem;
+  width: 239.391px;
+}
+
+.Tpic {
+  height: 6rem;
+  width: 6rem;
+  display: block;
+  margin: auto;
+  margin-bottom: -1rem;
+}
+
+.Tname {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  text-transform: Capitalize;
+  font-size: 1rem;
+  color: darkblue;
+  text-align: center;
+}
+
+/* Media queries */
+
+@media (max-width: 500px) {
+  .Tpic {
+    height: 7rem;
+    width: 7rem;
+  }
+}

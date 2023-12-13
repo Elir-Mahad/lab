@@ -1,0 +1,15 @@
+.AboutBox {
+  display: flex;
+  align-items: center;
+}
+
+.AboutText {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 400px) {
+  .AboutText {
+    font-size: 0.9em;
+  }
+}

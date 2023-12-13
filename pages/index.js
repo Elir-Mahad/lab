@@ -10,7 +10,7 @@ export default function Home({}) {
   return (
     <div>
       <Head>
-        <title>Proof-of-work</title>
+        <title>About</title>
         <meta name="keywords" content="Coding portfolio" />
         <meta name="description" content="Coding portfolio" />
         <link
@@ -26,8 +26,8 @@ export default function Home({}) {
           title2="Toolbox"
           content2={<ToolBox />}
         />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 }

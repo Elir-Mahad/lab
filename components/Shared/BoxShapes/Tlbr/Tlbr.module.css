@@ -1,0 +1,37 @@
+.CustomBox {
+  margin-top: 4rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.CustomBoxMainContainer {
+  line-height: 3rem;
+  padding: 1rem;
+  /* box border below */
+  border: 1px solid black;
+  padding: 1rem;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+}
+
+.CustomBoxMenu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+/* .CustomBoxMenuButtonWrapper {
+  
+} */
+
+@media (max-width: 500px) {
+  .CustomBox {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  .CustomBoxMenuButtonWrapper {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}

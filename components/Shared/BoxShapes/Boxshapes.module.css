@@ -1,0 +1,65 @@
+/* notched below */
+
+.boxer2:after {
+  content: "";
+  position: absolute;
+  margin-left: -12px;
+  margin-top: -15px;
+  width: 24.49px;
+  height: 44px;
+  transform: rotate(30deg);
+  /* background-color: #000; */
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+.boxer:after {
+  content: "";
+  position: absolute;
+  margin-left: -62px;
+  margin-top: -4px;
+  width: 79px;
+  height: 44px;
+  transform: rotate(31.5deg);
+  /* background-color: #000; */
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+/* tlbr below */
+.boxerTopLeft:after {
+  content: "";
+  position: absolute;
+  margin-top: -0.6rem;
+  margin-left: -0.95rem;
+  width: 65px;
+  height: 2rem;
+  transform: rotate(-35.5deg);
+  /* background-color: #000; */
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+.boxerBottomRight {
+  float: right;
+}
+
+.boxerBottomRight:after {
+  content: "";
+  position: absolute;
+  margin-top: -1.5rem;
+  margin-left: -3.1rem;
+  width: 65px;
+  height: 2rem;
+  transform: rotate(-36.6deg);
+  /* background-color: #000; */
+  border-top: 1px solid black;
+  background-color: white;
+}
+
+.boxBorder {
+  border: 1px solid black;
+  padding: 1rem;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+}

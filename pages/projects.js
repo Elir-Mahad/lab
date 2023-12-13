@@ -9,20 +9,19 @@ export default function CodingProjects({}) {
     <div>
       <Head>
         <title>Projects</title>
-        <meta
-          name="keywords"
-          content="Front end and data science coding projects"
-        />
-        <meta name="description" content="Coding portfolio" />
+        <meta name="keywords" content="Projects page of portfolio" />
+        <meta name="description" content="Projects page of portfolio" />
         <link
           href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
           rel="stylesheet"
         />
       </Head>
       <main className={styles.main}>
-        <ProjectsMenuAndList />
-        <Footer />
+        <div class="animate__animated animate__headShake animate__slower">
+          <ProjectsMenuAndList />
+        </div>
       </main>
+      <Footer />
     </div>
   );
 }

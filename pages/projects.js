@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import "animate.css";
 import ProjectsMenuAndList from "../components/Projects/ProjectsMenuAndList/ProjectsMenuAndList";
 import Footer from "../components/Shared/Footer/Footer";
-import GeneralMenu from "@/components/Menu/GeneralMenu";
 
 export default function CodingProjects({}) {
   return (
@@ -17,7 +16,6 @@ export default function CodingProjects({}) {
           rel="stylesheet"
         />
       </Head>
-      <GeneralMenu />
       <main className={styles.main}>
         <div class="animate__animated animate__headShake animate__slower">
           <ProjectsMenuAndList />

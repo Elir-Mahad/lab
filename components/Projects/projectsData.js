@@ -11,18 +11,18 @@ export const projectsData = [
     mockSrc: "Elir-Mahad/porass/main/assets/mocks/hikikureactmockup.png",
     tag: "react",
   },
-  {
-    title: "Radio Interno",
-    description:
-      "This PWA radio app was built with react, styled components, and the radio-browser-api. You can download it to your device. Discover radio stations based on your favourite music genre, language or country. Listen, enjoy, and then save your favourite stations in a playlist.",
-    toolASrc: "Elir-Mahad/porass/main/assets/icons/darkreact.png",
-    toolBSrc: "Elir-Mahad/porass/main/assets/icons/darkapi.png",
-    toolCSrc: "no",
-    websiteUrl: "https://interno.netlify.app/",
-    repoUrl: "https://github.com/Elir-Mahad/restricted",
-    mockSrc: "Elir-Mahad/porass/main/assets/mocks/internomockup.png",
-    tag: "react",
-  },
+  // {
+  //   title: "Radio Interno",
+  //   description:
+  //     "This PWA radio app was built with react, styled components, and the radio-browser-api. You can download it to your device. Discover radio stations based on your favourite music genre, language or country. Listen, enjoy, and then save your favourite stations in a playlist.",
+  //   toolASrc: "Elir-Mahad/porass/main/assets/icons/darkreact.png",
+  //   toolBSrc: "Elir-Mahad/porass/main/assets/icons/darkapi.png",
+  //   toolCSrc: "no",
+  //   websiteUrl: "https://interno.netlify.app/",
+  //   repoUrl: "https://github.com/Elir-Mahad/restricted",
+  //   mockSrc: "Elir-Mahad/porass/main/assets/mocks/internomockup.png",
+  //   tag: "react",
+  // },
   // {
   //   title: "Blog",
   //   description:

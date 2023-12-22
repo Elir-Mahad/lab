@@ -31,7 +31,10 @@ function ProjectContainer({
           </div>
         </div>
         <div className={style.PlinksBox}>
-          <h3 className={style.PlinksTitle}>Live site &#38; code</h3>
+          <h3 className={style.PlinksTitle}>
+            Live site
+            {/* &#38; code */}
+          </h3>
           <div className={style.Plinks}>
             <a
               className={style.Plink}
@@ -41,14 +44,14 @@ function ProjectContainer({
             >
               <img className={style.Plinkimg} src={websiteicon} />
             </a>
-            <a
+            {/* <a
               className={style.Plink}
               href={github}
               rel="noreferrer"
               target="_blank"
             >
               <img className={style.Plinkimg} src={githubicon} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

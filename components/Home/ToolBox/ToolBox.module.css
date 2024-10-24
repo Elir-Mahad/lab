@@ -1,8 +1,23 @@
+/* .CategorySection {
+  background-color: red; */
+/* margin-top: 7rem;
+} */
+
+.CategoryTitle {
+  text-align: center;
+  margin: 2rem;
+  margin-bottom: 3rem;
+  padding: 0.3rem;
+  /* text-transform: uppercase; */
+  font-weight: 100;
+  box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
 .Tools {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top: 1.3rem;
+  /* padding-top: 1.3rem; */
 }
 
 .TsingleBox {
@@ -10,7 +25,7 @@
   align-items: center;
   position: relative;
   width: calc((78.4% / 1) - 0%);
-  margin: 1rem;
+  /* margin: 1rem; */
   width: 239.391px;
 }
 
@@ -26,8 +41,7 @@
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
   text-transform: Capitalize;
-  font-size: 1rem;
-  color: darkblue;
+  font-size: 0.9rem;
   text-align: center;
 }
 
